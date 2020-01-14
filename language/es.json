@@ -1,0 +1,90 @@
+{
+  "semantics": [
+    {
+      "label": "Descripción",
+      "description": "Texto opcional publicado encima del grabador de audio"
+    },
+    {
+      "label": "Opciones y textos",
+      "fields": [
+        {
+          "label": "Texto para el botón \"Grabar\"",
+          "default": "Grabar"
+        },
+        {
+          "label": "Texto para el botón \"Pausar\"",
+          "default": "Pausar"
+        },
+        {
+          "label": "Texto para el botón \"Continuar\"",
+          "default": "Continuar"
+        },
+        {
+          "label": "Texto para el botón \"Descargar\"",
+          "default": "Descargar"
+        },
+        {
+          "label": "Texto para el botón \"Terminer\"",
+          "default": "Terminer"
+        },
+        {
+          "label": "Texto para el botón \"Reiniciar\"",
+          "default": "Reiniciar"
+        },
+        {
+          "label": "Mensaje de error si el micro no es soportado",
+          "default": "El micro no es soportado. Asegúrese de usar un navegador que autoriza la grabación de audio."
+        },
+        {
+          "label": "Mensaje de error si no se puede acceder al micro",
+          "default": "No se puede acceder al micro. Asegúrese de us de haber autorizado el acceso al micro en su navegador."
+        },
+        {
+          "label": "Mensaje de error en caso de acceso no seguro",
+          "description": "Algunos navegadores no permiten el uso del micro si la página usa el protocolo HTTP y no HTTPS. Este mensaje aparece cuando la página no usa el protocolo HTTPS.",
+          "default": "Su navegador no se autoriza el acceso al micro `prque la página no hace uso del protocolo HTTPS. Contacte el autor para solicitarle que sirva este contenido por HTTPS."
+        },
+        {
+          "label": "Mensaje antes de la grabación",
+          "default": "Pulse el botón de abajo para grabar."
+        },
+        {
+          "label": "Mensaje durante la grabación",
+          "default": "Grabando ..."
+        },
+        {
+          "label": "Mensaje en caso de pausa",
+          "default": "Grabación en pausa. Pulse sobre un botón para continuar."
+        },
+        {
+          "label": "Mensaje después de la grabación",
+          "default": "Su respuesta ha sido grabada. Escuche su respuesta abajo."
+        },
+        {
+          "label": "Mensaje para la descarga",
+          "default": "Descargue la grabación o vuelva a intentarlo."
+        },
+        {
+          "label": "Título del mensaje \"Volver a grabar\"",
+          "default": "Volver a grabar?"
+        },
+        {
+          "label": "Título del mensaje  \"Volver a grabar\"",
+          "default": "Pulsando  \"Volver a grabar\" borrará la grabación."
+        },
+        {
+          "label": "Texto de confirmación para \"Volver a grabar\"",
+          "default": "Volver a grabar"
+        },
+        {
+          "label": "Texto de anulación para \"Volver a grabar\"",
+          "default": "Anular"
+        },
+        {
+          "label": "Mensaje de error en la creación de la grabación",
+          "default": "Imposible crear el fichero audio."
+        }
+      ]
+    }
+  ]
+}
